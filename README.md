@@ -3,4 +3,7 @@
 
 
 - Styled-components
--vit
+-vite
+-phosphor-reac
+-radix-ui/react-dialog
+-radix-ui/react-radio-group
