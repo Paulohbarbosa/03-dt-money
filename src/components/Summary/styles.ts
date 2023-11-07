@@ -39,3 +39,4 @@ export const SummaryCard = styled.div<SummaryCardProps>`
         background: ${props.theme["green-700"]};
     `}
 `
+
