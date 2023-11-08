@@ -7,10 +7,15 @@ export const SummaryContainer = styled.section`
     padding: 0 1.5rem;
 
     display: grid;
+    overflow-x: auto;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 
     margin-top: -5rem;
+
+    &::-webkit-scrollbar{
+        width: 0;
+    }
 `
 
 interface SummaryCardProps{
@@ -18,6 +23,7 @@ interface SummaryCardProps{
 }
 
 export const SummaryCard = styled.div<SummaryCardProps>`
+    min-width: 21rem;
     background-color: ${props => props.theme["gray-600"]};
     border-radius: 6px;
     padding: 2rem;
