@@ -14,7 +14,7 @@ export function NewTransactionModal(){
                 </CloseButton>
 
                 <form action="">
-                    <input type="text"  placeholder="Descrição" required />
+                    <input type="text"  placeholder="Descrição" required autoFocus/>
                     <input type="number"  placeholder="Preço" required />
                     <input type="text"  placeholder="Categoria" required />
 
