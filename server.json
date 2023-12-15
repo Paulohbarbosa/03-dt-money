@@ -4,7 +4,7 @@
             "id": 1,
             "description": "Desenvolvimento de Site",
             "type": "income",
-            "category": "Vendas",
+            "category": "Venda",
             "price" : 14000,
             "createdAt": "2023-12-13T23:18:54.407Z"
         },
