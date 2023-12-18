@@ -1,9 +1,9 @@
-import { useContext, useEffect, useState } from "react";
+import { useContext} from "react";
 import { Header } from "../../components/Header";
 import { Summary } from "../../components/Summary";
 import { SearchFrom } from "./components/SearchForm";
 import { PriceHighlight, TransactionTable, TransactionsContainer } from "./styles";
-import { TransactionsContext } from "../../contexts/Transactionscontext";
+import { TransactionsContext } from "../../contexts/TransactionsContext";
 import { dateFormatter, priceFormatter } from "../../utils/formatter";
 
 export function Transaction(){
