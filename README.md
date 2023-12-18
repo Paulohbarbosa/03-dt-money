@@ -8,6 +8,8 @@
 -radix-ui/react-dialog
 -radix-ui/react-radio-group
 -json-server*
+- react-hook-form
+- zod
 
 - api restful
 - context api
