@@ -10,6 +10,7 @@
 -json-server*
 - react-hook-form
 - zod
+- axios
 
 - api restful
 - context api
